@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git init initializes a repository of a folder and creates the .git subfolder to keep track of metadata to track commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory holds the files that you are working on. The staging area holds the files in the working directory that git will track for commits. The staging area allows git to track only certain files (not all the files in the working directory) for commits.
