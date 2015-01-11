@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff helped show which lines in the two versions were different.
+From there it was much quicker and easier to find the problem in the new version.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You could easily revert to former coding if the newer version doesn't work as well as the old.
+You would be able to see mistakes or typos you've made.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros: you get to decide when to create the version; an automatically saved commit migh not make sense (it might be too big or too small)
+Cons: you might wait too long to manually chose to create a commit or you might manually commit to often; an automatic save could be set to ensure commits at regular intervals.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is set up more for coding, while Google Docs is set up more for storage of non-coding files.
+
+How can you use the commands git log and git diff to view the history of files?
+Use git log to see a list of commits between versions of files. Use git diff to view the differences between two versions of files using the version codes in the git diff command.
+
+How might using version control make you more confident to make changes that could break something?
+Version control gives you easy access to previous versions. Thus, you can quickly go back to a version that works if you make changes and the newer version does not work correctly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try using Git for other Udacity courses, for learning how to code in Javascript & D3 for data analytics/info graphics and for fixing the PHP code on an old website that I created.
