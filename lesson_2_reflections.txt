@@ -3,3 +3,9 @@ Git init initializes a repository of a folder and creates the .git subfolder to 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The working directory holds the files that you are working on. The staging area holds the files in the working directory that git will track for commits. The staging area allows git to track only certain files (not all the files in the working directory) for commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add file(s) to staging area that make sense as one logical change. Only commit them after running git diff to check difference in working directory and staging area and git diff --stage to check difference between staging area and last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful when creating alternate versions rather than updated versions of the code. Branches would help by creating these alternate versions while keeping the master version available.
