@@ -1,1 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work local?
+A remote allows you to share a project with others. A remote allows others to work on your project. A remote gives an extra copy of your project in case you lose your local copy.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+You might only want working versions to be available for others while keeping all commits on your local space.
+
+Describe the differences between forks, clones, and branches. When would you use on instead of another?
+Forks are clones of repositories on GitHub. Clones are copies of repositories on local servers. Branches are only found on local and are different versions of a code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+So you can know the differences between the local copy and the copy on GitHub. Is the local copy or the GitHub copy ahead? Are both different? Having a copy helps answer these questions.
