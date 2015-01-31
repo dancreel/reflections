@@ -12,3 +12,6 @@ So you can know the differences between the local copy and the copy on GitHub. I
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Could collaborate face-to-face, by working on files on a shared drive or by sending files back and forth via email (or a shared cloud resource). Face-to-face would be eaiser but collaboration couldn't go on when the parties were apart. Using a shared server would be about the same, but Git/GitHub allows saving of changes/versions that simply sharing files does not. Sharing via email would be less easy than sharing via a server.
+
+When would you want to make changes in a separate branch rather than directly in the master? What benefits does each approach have?
+Make changes in a separate branch for different versions or for presenting ideas for collaboration before merging into the master branch. The master branch is the agreed upon working code. Benefits in changing the separate branch means getting consensus before changing the master. Making changes in the master makes the work faster.
